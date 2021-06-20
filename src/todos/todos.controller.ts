@@ -6,7 +6,6 @@ import { Response } from 'express';
 export class TodosController {
   @Get('todos')
   getHello(): string {
-    // console.log(todo);
     return 'toso test';
   }
 
